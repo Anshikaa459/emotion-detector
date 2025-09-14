@@ -32,12 +32,7 @@ with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 
-st.title("Emotion Detection App")
-
-
-
-
-
+st.title("Emotion Detection System")
 
 text = st.text_area("Enter text:")
 
